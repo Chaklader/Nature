@@ -40,12 +40,12 @@
         $color-primary-light,
         $color-primary-dark
     );
-
     -webkit-background-clip: text;
     background-clip: text;
+    color: transparent;
+
     letter-spacing: 2px;
     transition: all 0.2s;
-    color: transparent;
 
     &:hover {
         transform: skewX(2deg) skewX(15deg) scale(1.1);
